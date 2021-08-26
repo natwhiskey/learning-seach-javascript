@@ -1,3 +1,8 @@
+function removePhotos() {
+    galleryElement.innerHTML = '';
+
+}
+
 function searchPhotos(event) {
     const keyword = event.target.value;
     if (event.key === 'Enter' && keyword) {
