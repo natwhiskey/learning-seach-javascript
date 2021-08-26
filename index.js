@@ -1,3 +1,9 @@
+function appendImageElement(keyword, index) {
+    const ImageElement = document.createElement('img');
+    ImageElement.src = `https://source.unsplash.com/400x225/?${keyword}&sig=${index}`;
+
+    galleryElement.appendChild(ImageElement);
+}
 function removePhotos() {
     galleryElement.innerHTML = '';
 
