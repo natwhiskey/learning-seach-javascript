@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 2rem 15rem;
+}
