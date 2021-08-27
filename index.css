@@ -29,3 +29,8 @@ input {
 input:focus {
     outline: none;
 }
+
+img {
+    margin: 2px;
+    padding: 2px;
+}
