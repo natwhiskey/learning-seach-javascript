@@ -5,6 +5,7 @@ function appendImageElement(keyword, index) {
 
     galleryElement.appendChild(ImageElement);
 }
+
 function removePhotos() {
     galleryElement.innerHTML = '';
 
@@ -19,6 +20,7 @@ function searchPhotos(event) {
         }
     }
 }
+
 function run() {
     const inputElement = document.querySelector('input');
     inputElement.addEventListener('keydown', searchPhotos);
